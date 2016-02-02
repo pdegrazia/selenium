@@ -1,0 +1,8 @@
+*** Settings ***
+Library  WebAutomation
+
+*** Test Cases ***
+Test Selenium
+  Open Browser Via Library
+  Navigate to page  http://robotframework.org/
+  Close all browsers

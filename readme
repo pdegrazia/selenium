@@ -1,0 +1,5 @@
+To Make These Tests Work:
+
+1) For the non object oriented programming, just run the test
+2) For the OO one, you need to update your PYTHONPATH typing the following in your command prompt:
+export PYTHONPATH=$PYTHONPATH:/path/to/your/library

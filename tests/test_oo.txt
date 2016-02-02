@@ -1,0 +1,7 @@
+*** Settings ***
+Library  MyLibraryOO
+
+*** Test Cases ***
+Test 1
+  ${value}=  MyLibraryOO.search_oo
+  Log  ${value}

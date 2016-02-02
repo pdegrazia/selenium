@@ -1,0 +1,7 @@
+*** Settings ***
+Library  ../libraries/MyLibrary.py
+
+*** Test Cases ***
+Test 1
+  ${value}=  search
+  Log  ${value}
